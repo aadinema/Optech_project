@@ -1,0 +1,117 @@
+.mainContainer{
+    padding-bottom: 2rem;
+    padding: 2rem 1rem;
+    width: 100vw;
+    height: auto;
+    background-color: #040D43;
+}
+.container{
+    display: flex;
+    margin-bottom: 2rem;
+    width: 100vw;
+    /* height: ; */
+    background-color: #040D43;
+    
+    
+}
+.subContainer{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 1rem;
+    background-color: #DEE0E9;
+    margin-right: 1.5rem;
+    border-radius: 10%;
+    padding: 0rem 2rem;
+    text-align: justify;
+}
+.subContainer1{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 1rem;
+    background-color: #2B4DFF;
+    margin-right: 1.5rem;
+    border-radius: 10%;
+    padding: 0rem 2rem;
+    text-align: justify;
+}
+.subContainer2{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 1rem;
+    background-color: #DEE0E9;
+    margin-right: 1rem;
+    border-radius: 10%;
+    padding: 0rem 2rem;
+    text-align: left;
+}
+.mainHeading{
+    text-align: center;
+    font-size: 3rem;
+    margin: 4rem 0rem;
+    color: #FFFFFF;
+}
+.heading{
+    font-size: 2rem;
+    text-align: left;
+    color: #040D43;
+    padding: 1rem;
+}
+.heading2{
+    font-size: 3rem;
+    color: #040D43;
+    padding: 1rem;
+}
+.subContainerHeading{
+    font-size: 3rem;
+    color: #FFFFFF;
+    padding: 1rem;
+}
+.para{
+    font: 1rem;
+    color: black;
+    line-height: 1.5rem;
+}
+.bt{
+    padding: 1rem 1.5rem;
+    margin-bottom: 1rem;
+    color: #FFFFFF;
+    background-color: #2B4DFF;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    border: none;
+}
+.bt:hover{
+    background-color: #040D43;
+}
+.bt1{
+    color: #040D43;
+    background-color: #FFFFFF;
+    margin-bottom: 1rem;
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    border: none;
+}
+.bt1:hover{
+    background-color: #040D43;
+    color: #FFFFFF;
+}
+.list{
+    list-style-type:none;
+    font: 1rem;
+    
+}
+.list li{
+    padding-bottom: 1rem;
+}
+i{
+    padding-right: 1rem;
+}

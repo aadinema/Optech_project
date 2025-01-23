@@ -1,0 +1,213 @@
+.footer {
+  background-color: #FFFFFF;
+  color: #1e275b;
+  padding: 5rem 2rem; /* Increased padding for a larger footer */
+  font-family: Arial, sans-serif;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-bottom: 2rem;
+}
+
+/* Container for the sections */
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Section Styling */
+.section {
+  flex: 1;
+  margin: 10px;
+  min-width: 300px;
+}
+
+/* Logo and Description */
+.logo {
+  font-size: 2.5rem; /* Increased font size */
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 16px; /* Increased font size */
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+/* Social Links */
+.socialLinks {
+  display: flex;
+  gap: 15px; /* Increased gap between icons */
+}
+
+.socialIcon {
+  background-color: #1e275b;
+  padding: 12px;
+  border-radius: 50%;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Titles */
+.title {
+  font-size: 20px; /* Increased font size */
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+/* Lists */
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+}
+
+.list li {
+  margin-bottom: 16px;
+}
+
+.list a {
+  text-decoration: none;
+  color: #1e275b;
+  font-size: 16px; /* Increased font size */
+}
+
+.list a:hover {
+  color: #00aaff;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 30px; /* Increased padding for separation */
+  border-top: 1px solid #1e275b;
+  margin-top: 20px;
+  font-size: 18px; /* Increased font size */
+  color: #1e275b;
+}
+
+/* Make the layout more compact on smaller screens */
+@media (max-width: 1024px) {
+  .footer {
+    padding: 4rem 2rem; /* Adjusted for tablets */
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section {
+    margin: 20px 0;
+    text-align: center;
+    min-width: 100%;
+  }
+
+  .logo {
+    font-size: 2.2rem; /* Adjusted for tablets */
+  }
+
+  .description {
+    font-size: 15px; /* Adjusted for tablets */
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .socialLinks {
+    justify-content: center;
+  }
+
+  .socialIcon {
+    width: 45px;
+    height: 45px;
+    font-size: 18px; /* Adjusted for tablets */
+  }
+
+  .list a {
+    font-size: 16px;
+  }
+
+  .copyright {
+    font-size: 16px;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+  .footer {
+    padding: 3rem 1.5rem; /* Adjusted for mobile */
+  }
+
+  .logo {
+    font-size: 2rem; /* Adjusted for mobile */
+  }
+
+  .description {
+    font-size: 14px; /* Adjusted for mobile */
+  }
+
+  .title {
+    font-size: 16px;
+  }
+
+  .socialIcon {
+    width: 40px;
+    height: 40px;
+    font-size: 18px; /* Adjusted for mobile */
+  }
+
+  .list a {
+    font-size: 15px;
+  }
+
+  .copyright {
+    font-size: 15px;
+  }
+}
+
+/* For very small devices (like phones) */
+@media (max-width: 480px) {
+  .footer {
+    padding: 2.5rem 1rem; /* Adjusted for smaller mobile devices */
+  }
+
+  .logo {
+    font-size: 1.8rem; /* Adjusted for smaller screens */
+  }
+
+  .description {
+    font-size: 12px; /* Adjusted for smaller screens */
+  }
+
+  .title {
+    font-size: 14px;
+  }
+
+  .socialIcon {
+    width: 35px;
+    height: 35px;
+    font-size: 16px; /* Adjusted for small devices */
+  }
+
+  .list a {
+    font-size: 14px;
+  }
+
+  .copyright {
+    font-size: 13px;
+  }
+}
