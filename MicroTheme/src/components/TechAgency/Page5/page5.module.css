@@ -67,37 +67,103 @@
     margin: 0;
     color: gray;
   }
-  
   /* Responsive adjustments */
-  @media (max-width: 768px) {
-    .imageContainer {
-      height: 180px;
-    }
-  
-    .title {
-      font-size: 1rem;
-    }
-  
-    .description {
-      font-size: 0.9rem;
-    }
+@media (max-width: 1024px) {
+  .container {
+    padding: 1.5rem;
   }
-  
-  @media (max-width: 480px) {
-    .heading {
-      font-size: 1.5rem;
-    }
-  
-    .imageContainer {
-      height: 150px;
-    }
-  
-    .title {
-      font-size: 0.9rem;
-    }
-  
-    .description {
-      font-size: 0.8rem;
-    }
+
+  .heading {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
   }
-  
+
+  .slider {
+    margin: 0 auto;
+  }
+
+  .card {
+    padding: 0.8rem;
+  }
+
+  .imageContainer {
+    height: 400px;
+  }
+
+  .image {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .heading {
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .card {
+    padding: 0.5rem;
+  }
+
+  .imageContainer {
+    height: 300px;
+  }
+
+  .image {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0.5rem;
+  }
+
+  .heading {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .card {
+    padding: 0.5rem;
+  }
+
+  .imageContainer {
+    height: 200px;
+  }
+
+  .image {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .title {
+    font-size: 0.9rem;
+  }
+
+  .description {
+    font-size: 0.8rem;
+  }
+}

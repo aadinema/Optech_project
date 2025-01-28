@@ -119,7 +119,7 @@ const Navigation = () => {
                 <li>
                   {" "}
                   <NavLink
-                    to="/demos/About-Us"
+                    to="/Pages/About-Us"
                     className={({ isActive }) =>
                       isActive ? styles.activeLink : styles.navLink
                     }
@@ -130,7 +130,7 @@ const Navigation = () => {
                 <li>
                   {" "}
                   <NavLink
-                    to="/demos/Service"
+                    to="/Pages/Service"
                     className={({ isActive }) =>
                       isActive ? styles.activeLink : styles.navLink
                     }
@@ -141,7 +141,7 @@ const Navigation = () => {
                 <li>
                   {" "}
                   <NavLink
-                    to="/demos/Team"
+                    to="/Pages/Team"
                     className={({ isActive }) =>
                       isActive ? styles.activeLink : styles.navLink
                     }
@@ -152,7 +152,7 @@ const Navigation = () => {
                 <li>
                   {" "}
                   <NavLink
-                    to="/demos/Utility"
+                    to="/Pages/Utility"
                     className={({ isActive }) =>
                       isActive ? styles.activeLink : styles.navLink
                     }
@@ -168,7 +168,7 @@ const Navigation = () => {
                 <li>
                   {" "}
                   <NavLink
-                    to="/demos/Portfolio-Grid"
+                    to="/Portfolio/Portfolio-Grid"
                     className={({ isActive }) =>
                       isActive ? styles.activeLink : styles.navLink
                     }
@@ -179,7 +179,7 @@ const Navigation = () => {
                 <li>
                   {" "}
                   <NavLink
-                    to="/demos/Portfolio-Masonry"
+                    to="/Portfolio/Portfolio-Masonry"
                     className={({ isActive }) =>
                       isActive ? styles.activeLink : styles.navLink
                     }
@@ -190,7 +190,7 @@ const Navigation = () => {
                 <li>
                   {" "}
                   <NavLink
-                    to="/demos/Portfolio-Details"
+                    to="/Portfolio/Portfolio-Details"
                     className={({ isActive }) =>
                       isActive ? styles.activeLink : styles.navLink
                     }
@@ -206,7 +206,7 @@ const Navigation = () => {
                 <li>
                   {" "}
                   <NavLink
-                    to="/demos/Blog"
+                    to="/Blog/Blog"
                     className={({ isActive }) =>
                       isActive ? styles.activeLink : styles.navLink
                     }
@@ -217,7 +217,7 @@ const Navigation = () => {
                 <li>
                   {" "}
                   <NavLink
-                    to="/demos/Blog-Grid"
+                    to="/Blog/Blog-Grid"
                     className={({ isActive }) =>
                       isActive ? styles.activeLink : styles.navLink
                     }
@@ -228,7 +228,7 @@ const Navigation = () => {
                 <li>
                   {" "}
                   <NavLink
-                    to="/demos/Blog-Details"
+                    to="/Blog/Blog-Details"
                     className={({ isActive }) =>
                       isActive ? styles.activeLink : styles.navLink
                     }

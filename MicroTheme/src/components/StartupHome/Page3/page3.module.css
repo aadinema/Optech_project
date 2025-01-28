@@ -96,3 +96,98 @@
     color: #0A165E;
     font-weight: 600;
 }
+
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      padding: 2rem 1rem;
+    }
+  
+    .left,
+    .right {
+      width: 100%;
+      padding: 0;
+    }
+  
+    .primaryImage {
+      display: block;
+      text-align: center;
+    }
+  
+    .image1 .secondaryImage .image2 {
+      display: none;
+    }
+  
+    
+    .heading {
+      font-size: 2rem;
+      line-height: 2.5rem;
+    }
+  
+    .paragraph,
+    .subParagraph {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+  
+    .customers {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+  
+    .border {
+      border-right: none;
+      border-bottom: 1px solid grey;
+      padding: 0;
+      width: 100%;
+      text-align: left;
+      margin-bottom: 1rem;
+    }
+  
+    .number {
+      font-size: 2rem;
+      padding: 0.5rem 1rem;
+    }
+  
+    .para {
+      font-size: 1rem;
+      margin: 0.5rem 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .heading {
+      font-size: 1.5rem;
+    }
+  
+    .paragraph,
+    .subParagraph {
+      font-size: 0.9rem;
+    }
+  
+    .customers {
+      gap: 1rem;
+    }
+  
+    .number {
+      font-size: 1.8rem;
+    }
+  
+    .para {
+      font-size: 0.9rem;
+    }
+     .secondaryImage {
+        display: none;
+      }
+      .image2 {
+      display: none;
+    }
+      .image1 {
+      display: none;
+    }
+    
+
+  }
+  

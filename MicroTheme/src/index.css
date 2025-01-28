@@ -5,8 +5,14 @@
   font-family: 'Sora', sans-serif;
 }
 
-body {
+html, body {
   width: 100%;
   height: 100%;
-  overflow-x: hidden;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  overflow-y: auto;   /* Allow vertical scrolling */
+}
+
+.container {
+  max-width: 100%;
+  overflow-x: hidden; /* Prevent overflow within container */
 }

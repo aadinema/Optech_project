@@ -8,7 +8,7 @@ const Page1 = () => {
         <div className={styles.left}>
         <h5 className={styles.subhead}>We provide professional IT services</h5>
         <h1 className={styles.heading}>Best IT services <br /> for your agency</h1>
-        <p className={styles.subParagraph}>We transform businesses of most major sectors with powerful and <br /> adaptable digital solutions that satisfy the needs of today.</p>
+        <p className={styles.subParagraph}>We transform businesses of most major sectors with powerful and  adaptable digital solutions that satisfy the needs of today.</p>
         <div>
             <button className={styles.primaryButton}>Work With Us</button>
             <button className={styles.secondaryButton}>View Services</button>

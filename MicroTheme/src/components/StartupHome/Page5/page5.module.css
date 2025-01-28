@@ -115,3 +115,84 @@
 i{
     padding-right: 1rem;
 }
+
+/* Responsive for Tablets */
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column; /* Stack items vertically */
+      margin-bottom: 1rem;
+    }
+  
+    .subContainer, .subContainer1, .subContainer2 {
+      width: 100%; /* Make each container take full width */
+      margin-right: 4rem; /* Remove margin */
+      margin-bottom: 1rem; /* Add space between containers */
+    }
+  
+    .mainHeading {
+      font-size: 2rem; /* Adjust font size for smaller screens */
+      margin: 2rem 0;
+    }
+  
+    .heading {
+      font-size: 1.5rem; /* Adjust heading size */
+    }
+  
+    .heading2, .subContainerHeading {
+      font-size: 2.5rem; /* Adjust plan prices size */
+    }
+  
+    .para {
+      font-size: 0.9rem; /* Adjust paragraph font size */
+    }
+  
+    .bt, .bt1 {
+      font-size: 1.2rem; /* Adjust button font size */
+      padding: 0.8rem 1.2rem; /* Adjust button padding */
+    }
+  
+    .list li {
+      font-size: 0.9rem; /* Adjust list font size */
+    }
+  }
+  
+  /* Responsive for Mobile */
+  @media (max-width: 480px) {
+    .container {
+      flex-direction: column; /* Stack items vertically */
+      margin-bottom: 1rem;
+    }
+  
+    .subContainer, .subContainer1, .subContainer2 {
+      width: 100%; /* Make each container take full width */
+      margin-right: 0; /* Remove margin */
+      margin-bottom: 1rem; /* Add space between containers */
+    }
+  
+    .mainHeading {
+      font-size: 1.8rem; /* Adjust font size for smaller screens */
+      margin: 1.5rem 0;
+    }
+  
+    .heading {
+      font-size: 1.3rem; /* Adjust heading size */
+    }
+  
+    .heading2, .subContainerHeading {
+      font-size: 2rem; /* Adjust plan prices size */
+    }
+  
+    .para {
+      font-size: 0.85rem; /* Adjust paragraph font size */
+    }
+  
+    .bt, .bt1 {
+      font-size: 1.1rem; 
+      padding: 0.7rem 1rem; 
+    }
+  
+    .list li {
+      font-size: 0.8rem; 
+    }
+  }
+  

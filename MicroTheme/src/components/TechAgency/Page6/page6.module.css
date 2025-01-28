@@ -88,6 +88,7 @@
     .card {
       padding: 0.8rem;
       min-height: 280px;
+      text-align: center;
     }
   
     .quote {
@@ -101,7 +102,7 @@
     .role {
       font-size: 0.85rem;
     }
-  
+    
   
   }
   
